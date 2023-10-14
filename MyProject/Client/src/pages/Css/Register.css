@@ -1,0 +1,159 @@
+body {
+    max-width: 1440px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-shrink: 0;
+    gap: 32px;
+}
+
+#register-form {
+    width: 600px;
+    height: 900px;
+    border-radius: 14px;
+    padding: 24px 16px;
+    background: var(--light-greyscale-greyscale-200, #fff);
+    box-shadow: 0px 12px 40px 0px rgba(0, 0, 0, 0.16);
+  }
+  
+  .register-form-header {
+    position: relative;
+    border-bottom: 1px solid #f7f7f7;
+    padding: 0px 100px 0px 100px;
+  }
+  
+  .title-register-header {
+      color: var(--main-text, #002352);
+      text-align: center;
+      font-family: Roboto;
+      font-size: 28px;
+      font-style: normal;
+      font-weight: 700;
+      line-height: 130%;
+      /* 36.4px */
+  }
+  #register-form-body {
+    padding: 32px 80px 0px 80px;
+    display: inline-flex;
+flex-direction: column;
+align-items: flex-start;
+gap: 24px;
+  }
+  
+  .label-input {
+      color: var(--light-greyscale-greyscale-900, #000);
+      font-family: Roboto;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 22px;
+      /* 137.5% */
+  }
+  
+  #register-form-body input {
+      display: flex;
+      width: 440px;
+      height: 22px;
+      padding: 16px 15px;
+      align-items: flex-start;
+      gap: 10px;
+      flex-shrink: 0;
+      border-radius: 8px;
+      background: #f7f7f7;
+      border: 0px;
+  }
+
+  /* Cho Firefox */
+  ::-moz-placeholder {
+      color: rgba(0, 0, 0, 0.5);
+      /* Màu đen với 50% độ trong suốt */
+      opacity: 1;
+      /* Firefox yêu cầu này để màu sắc hoạt động */
+  }
+
+  /* Cho Internet Explorer và Edge */
+  :-ms-input-placeholder {
+      color: rgba(0, 0, 0, 0.5);
+  }
+
+  /* Cho Chrome, Safari và Opera */
+  ::placeholder {
+      color: rgba(0, 0, 0, 0.5);
+  }
+  
+  .checkbox {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+  }
+
+  #forgot-password {
+    color: var(--dark-other-link-500, #2f80ed);
+    text-align: right;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 22px; /* 137.5% */
+  }
+  
+  .register-button {
+    margin-top: 25px;
+    margin-left: 90px;
+    display: flex;
+    width: 245px;
+    height: 30px;
+    padding: 15px 15px;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    flex-shrink: 0;
+    border-radius: 40px;
+    background: var(--Green, #00bf6f);
+    box-shadow: 0px 2px 10px 0px rgba(244, 103, 0, 0.05);
+  
+    color: var(--light-text-active, #fff);
+    text-align: center;
+    /* GG/16px/Med/Button Text */
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+  }
+  .register-button:hover {
+    cursor: pointer;
+  }
+  .login-with {
+    margin-top: 30px;
+    margin-left: 40px;
+    color: var(--light-transparent-greyscale-65, rgba(0, 0, 0, 0.65));
+    text-align: center;
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: 0.192px;
+  }
+  
+  .otherway {
+    margin-left: 35px;
+    flex-shrink: 0;
+    border-radius: 24px;
+    background: var(--light-greyscale-greyscale-300, #e5e6ec);
+  
+    color: var(--light-greyscale-greyscale-900, #000);
+    font-family: Roboto;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    text-align: center;
+    padding: 13.02px 55px 13px 55px;
+  }
+  .footer {
+    margin-top: 51px;
+    margin-left: 35px;
+    text-align: center;
+  }
